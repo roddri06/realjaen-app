@@ -991,10 +991,10 @@ app.get('/api/matches/:id', async (req, res) => {
 
 // ── Clasificación ────────────────────────────────────────────
 app.get('/api/squad', async (req, res) => {
-  const EXCLUIR = ['Jaime', 'Zeidy Traore', 'Sergio Rivera', 'Fernando Cortijo', 'J.C. Mancilla', 'Zeidy Traor�', 'Zeidy Traore', 'Zeidy Traor�'];
+  const EXCLUIR = ['Jaime', 'Zeidy Traore', 'Sergio Rivera', 'Fernando Cortijo', 'J.C. Mancilla'];
   try {
     var data = await fetchSquad();
-    data.players = data.players.filter(p => !EXCLUIR.includes(p.name));
+    data.players = data.players.filter(p => !EXCLUIR.includes(p.name) && !p.name.includes('Zeidy') && !p.name.includes('J.C.'));
     res.json({ ok: true, ...data });
   } catch (err) {
     console.error('[Route] squad:', err.message);
