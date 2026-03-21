@@ -100,6 +100,27 @@ const CONFIG = {
   REFRESH_MS: 60_000,
 };
 
+const TEAM_LOGOS = {
+  217210: '/imagenes/aguilas.png',
+  2838:   '/imagenes/xerezcd.png',
+  189948: '/imagenes/deportiva_minera.png',
+  852868: '/imagenes/extremadura.png',
+  55785:  '/imagenes/union_atletico.png',
+  202076: '/imagenes/recreativo_huelva.png',
+  5068:   '/imagenes/lorca.png',
+  55121:  '/imagenes/union_atletico.png',
+  292589: '/imagenes/antoniano.png',
+  2880:   '/imagenes/linares.png',
+  43759:  '/imagenes/yeclano.png',
+  263797: '/imagenes/puente_genil.png',
+  229782: '/imagenes/xerezfc.png',
+  324661: '/imagenes/estepona.png',
+  24350:  '/imagenes/melilla.png',
+  44321:  '/imagenes/almeria.png',
+  4490:   '/imagenes/malagueño.png',
+  2841:   '/imagenes/real_jaen.png'
+};
+
 // ═══════════════════════════════════════════════════════════════
 // CACHÉ: RAM (rápida) + DISCO (persiste entre reinicios)
 // ═══════════════════════════════════════════════════════════════
