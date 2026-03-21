@@ -121,6 +121,32 @@ const TEAM_LOGOS = {
   2841:   '/imagenes/real_jaen.png'
 };
 
+const PLAYER_PHOTOS = {
+  'Javier Rabanillo':     '/imagenes/rabanillo.jpg',
+  'Jaime Morillas':       '/imagenes/morillas.jpg',
+  'Ruane Connor':         '/imagenes/connor.jpg',
+  'Javi Moyano':          '/imagenes/javi_moyano.jpg',
+  'Mauro Cabello':        '/imagenes/mauro.jpg',
+  'Pedro Fernández':      '/imagenes/pedro_fernandez.jpg',
+  'Jose Carrillo Mancilla': '/imagenes/jose_carrillo.jpg',
+  'Pelayo Suarez':        '/imagenes/pelayo_suarez.jpg',
+  'Curro Burgos':         '/imagenes/curro.jpg',
+  'José Álvarez':         '/imagenes/jose_alvarez.jpg',
+  'Antonio Caballero':    '/imagenes/caballero.jpg',
+  'Adri':                 '/imagenes/adri_paz.jpg',
+  'Ñito González':        '/imagenes/ñito.jpg',
+  'Nacho Vizcaíno':       '/imagenes/nacho_vizcaino.jpg',
+  'Óscar Lozano':         '/imagenes/oscar_lozano.jpg',
+  'David Serrano':        '/imagenes/david_serrano.jpg',
+  'Alberto Bernardo':     '/imagenes/alberto_bernardo.jpg',
+  'Ivan Breñé':           '/imagenes/ivan_breñe.jpg',
+  'Mario Martos':         '/imagenes/mario_martos.jpg',
+  'Marco Siverio Toro':   '/imagenes/marco_siverio.jpg',
+  'Agustin Alonso':       '/imagenes/agus_alonso.jpg',
+  'Moha Sanhaji':         '/imagenes/moha.jpg',
+  'Adrian Fernández':     '/imagenes/adri_fernandez.jpg'
+};
+
 // ═══════════════════════════════════════════════════════════════
 // CACHÉ: RAM (rápida) + DISCO (persiste entre reinicios)
 // ═══════════════════════════════════════════════════════════════
@@ -393,7 +419,7 @@ function normStats(statData) {
   });
   return { home: rn(home), away: rn(away) };
 }
-
+photo: PLAYER_PHOTOS[p.name] || 'https://realjaen-production.up.railway.app/api/logo/player/' + p.id,
 
 // Normaliza un jugador del endpoint /players
 function normPlayer(item) {
