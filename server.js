@@ -141,8 +141,8 @@ const PLAYER_PHOTOS = {
   'Alberto Bernardo':     '/imagenes/alberto_bernardo.jpg',
   'Ivan Breñé':           '/imagenes/ivan_breñe.jpg',
   'Mario Martos':         '/imagenes/mario_martos.jpg',
-  'Marco Siverio Toro':   '/imagenes/marco_siverio.jpg',
-  'Agustin Alonso':       '/imagenes/agus_alonso.jpg',
+  'Marco Siverio':   '/imagenes/marco_siverio.jpg',
+  'Agust�n Alonso':       '/imagenes/agus_alonso.jpg',
   'Moha Sanhaji':         '/imagenes/moha.jpg',
   'Adrian Fernández':     '/imagenes/adri_fernandez.jpg'
 };
