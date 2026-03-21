@@ -122,29 +122,27 @@ const TEAM_LOGOS = {
 };
 
 const PLAYER_PHOTOS = {
-  'Javier Rabanillo':       '/imagenes/rabanillo.jpg',
-  'Jaime Morillas':         '/imagenes/morillas.jpg',
-  'Ruane Connor':           '/imagenes/connor.jpg',
-  'Javi Moyano':            '/imagenes/javi_moyano.jpg',
-  'Mauro Cabello':          '/imagenes/mauro.jpg',
-  'Pedro Fernández':        '/imagenes/pedro_fernandez.jpg',
-  'Jose Carrillo Mancilla': '/imagenes/jose_carrillo.jpg',
-  'Pelayo Suarez':          '/imagenes/pelayo_suarez.jpg',
-  'Curro Burgos':           '/imagenes/curro.jpg',
-  'José Álvarez':           '/imagenes/jose_alvarez.jpg',
-  'Antonio Caballero':      '/imagenes/caballero.jpg',
-  'Adri':                   '/imagenes/adri_paz.jpg',
-  'Ñito González':          '/imagenes/ñito.jpg',
-  'Nacho Vizcaíno':         '/imagenes/nacho_vizcaino.jpg',
-  'Óscar Lozano':           '/imagenes/oscar_lozano.jpg',
-  'David Serrano':          '/imagenes/david_serrano.jpg',
-  'Alberto Bernardo':       '/imagenes/alberto_bernardo.jpg',
-  'Iván Breñé':             '/imagenes/ivan_breñe.jpg',
-  'Mario Martos':           '/imagenes/mario_martos.jpg',
-  'Marco Siverio':          '/imagenes/marco_siverio.jpg',
-  'Agustín Alonso':         '/imagenes/agus_alonso.jpg',
-  'Moha Sanhaji':           '/imagenes/moha.jpg',
-  'Adrián Fernández':       '/imagenes/adri_fernandez.jpg'
+  914252:  '/imagenes/rabanillo.jpg',
+  2273024: '/imagenes/morillas.jpg',
+  820707:  '/imagenes/connor.jpg',
+  175409:  '/imagenes/javi_moyano.jpg',
+  900341:  '/imagenes/mauro.jpg',
+  1977460: '/imagenes/pedro_fernandez.jpg',
+  1977446: '/imagenes/curro.jpg',
+  864187:  '/imagenes/pelayo_suarez.jpg',
+  1429049: '/imagenes/jose_alvarez.jpg',
+  861277:  '/imagenes/caballero.jpg',
+  268117:  '/imagenes/adri_paz.jpg',
+  368820:  '/imagenes/ñito.jpg',
+  1402763: '/imagenes/nacho_vizcaino.jpg',
+  916135:  '/imagenes/oscar_lozano.jpg',
+  1545211: '/imagenes/david_serrano.jpg',
+  1011343: '/imagenes/alberto_bernardo.jpg',
+  347538:  '/imagenes/mario_martos.jpg',
+  942663:  '/imagenes/marco_siverio.jpg',
+  848589:  '/imagenes/moha.jpg',
+  860692:  '/imagenes/agus_alonso.jpg',
+  2235104: '/imagenes/adri_fernandez.jpg'
 };
 
 // ═══════════════════════════════════════════════════════════════
@@ -445,7 +443,7 @@ function normPlayer(item) {
     height:      p.height || null,
     country:     (p.country && p.country.alpha2) || null,
     countryName: (p.country && p.country.name)   || null,
-    photo: PLAYER_PHOTOS[p.name] || 'https://realjaen-production.up.railway.app/api/logo/player/' + p.id,
+    photo: PLAYER_PHOTOS[p.id] || 'https://realjaen-production.up.railway.app/api/logo/player/' + p.id,
   };
 }
 
