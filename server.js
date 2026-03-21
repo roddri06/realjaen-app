@@ -419,7 +419,7 @@ function normStats(statData) {
   });
   return { home: rn(home), away: rn(away) };
 }
-photo: PLAYER_PHOTOS[p.name] || 'https://realjaen-production.up.railway.app/api/logo/player/' + p.id,
+
 
 // Normaliza un jugador del endpoint /players
 function normPlayer(item) {
@@ -445,7 +445,7 @@ function normPlayer(item) {
     height:      p.height || null,
     country:     (p.country && p.country.alpha2) || null,
     countryName: (p.country && p.country.name)   || null,
-    photo:       'https://realjaen-production.up.railway.app/api/logo/player/' + p.id,
+    photo: PLAYER_PHOTOS[p.name] || 'https://realjaen-production.up.railway.app/api/logo/player/' + p.id,
   };
 }
 
