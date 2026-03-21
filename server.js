@@ -820,7 +820,7 @@ function staticUpcoming() {
       status:'scheduled', competition:'Segunda Federación', round:'Jornada 29',
       venue:'Estadio La Victoria', city:'Jaén' },
     { id:'14102186', source:'static',
-      homeTeam:{ id:4490, name:'Atlético Malagueño', short:'ATL', isJaen:false, logo:'/imagenes/malague�o.png'},
+      homeTeam:{ id:4490, name:'Atlético Malagueño', short:'ATL', isJaen:false, logo:'/imagenes/malageno.png'},
       awayTeam:{ id:2841, name:'Real Jaén',           short:'JAE', isJaen:true  },
       date: new Date(1775401200*1000).toISOString(),
       dateFormatted:'Dom 6 Abr', time:'17:00',
@@ -890,7 +890,7 @@ function staticStandings() {
     { position:15, team:{ id:324661, name:'CD Estepona',           short:'EST', isJaen:false, logo:'/imagenes/estepona.png'}, played:27, won:8,  draw:5,  lost:14, goalsFor:28, goalsAgainst:37, goalDiff:-9,  points:29 },
     { position:16, team:{ id:24350,  name:'UD Melilla',            short:'MEL', isJaen:false, logo:'/imagenes/melilla.png'}, played:27, won:5,  draw:11, lost:11, goalsFor:25, goalsAgainst:29, goalDiff:-4,  points:26 },
     { position:17, team:{ id:44321,  name:'Almería B',             short:'ALB', isJaen:false, logo:'/imagenes/almeria.png'}, played:27, won:4,  draw:7,  lost:16, goalsFor:20, goalsAgainst:39, goalDiff:-19, points:19 },
-    { position:18, team:{ id:4490,   name:'Atlético Malagueño',    short:'ATL', isJaen:false, logo:'/imagenes/malague�o.png'}, played:27, won:3,  draw:5,  lost:19, goalsFor:22, goalsAgainst:48, goalDiff:-26, points:14 },
+    { position:18, team:{ id:4490,   name:'Atlético Malagueño',    short:'ATL', isJaen:false, logo:'/imagenes/malageno.png'}, played:27, won:3,  draw:5,  lost:19, goalsFor:22, goalsAgainst:48, goalDiff:-26, points:14 },
   ];
 }
 
