@@ -792,7 +792,7 @@ function staticSquad() {
     return {id,name,shortName:name,position:pos,positionFull:posF[pos]||pos,
       jersey,dob,age:yr?new Date().getFullYear()-yr:null,height:h,country,
       countryName:{ES:'España',EN:'Inglaterra',MA:'Marruecos',ML:'Mali'}[country]||country,
-      photo:'https://realjaen-production.up.railway.app/api/logo/player/'+id};
+      photo:PLAYER_PHOTOS[id]||'https://realjaen-production.up.railway.app/api/logo/player/'+id};
   }
   return [
     p(914252,  'Javier Rabanillo',  'GK',1,   '1995-10-21','ES',186),
