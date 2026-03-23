@@ -117,7 +117,7 @@ const TEAM_LOGOS = {
   324661: '/imagenes/estepona.png',
   24350:  '/imagenes/melilla.png',
   44321:  '/imagenes/almeria.png',
-  4490:   '/imagenes/malagueño.png',
+  4490:   '/imagenes/malagueno.png',
   2841:   '/imagenes/real_jaen.png'
 };
 
