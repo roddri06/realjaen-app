@@ -897,27 +897,26 @@ function staticStandings() {
   // Datos REALES del Grupo IV — standings[3] de /unique-tournament/544/season/77733/standings/total
   // Jornada 27, actualizado 2026-03-15
   return [
-    { position:1,  team:{ id:217210, name:'CDA Águilas FC',       short:'AGU', isJaen:false, logo:'/imagenes/aguilas.png'}, played:27, won:14, draw:7,  lost:6,  goalsFor:35, goalsAgainst:20, goalDiff:15,  points:49 },
-    { position:2,  team:{ id:2838,   name:'Xerez CD',              short:'XER', isJaen:false, logo:'/imagenes/xerezcd.png'}, played:27, won:14, draw:6,  lost:7,  goalsFor:28, goalsAgainst:20, goalDiff:8,   points:48 },
-    { position:3,  team:{ id:189948, name:'Deportiva Minera',      short:'DMI', isJaen:false, logo:'/imagenes/deportiva_minera.png'}, played:27, won:14, draw:5,  lost:8,  goalsFor:39, goalsAgainst:27, goalDiff:12,  points:47 },
-    { position:4,  team:{ id:852868, name:'CD Extremadura',        short:'CEX', isJaen:false, logo:'/imagenes/extremadura.png'}, played:27, won:12, draw:10, lost:5,  goalsFor:41, goalsAgainst:31, goalDiff:10,  points:46 },
-    { position:5,  team:{ id:55785,  name:'UCAM Murcia',           short:'UCA', isJaen:false, logo:'/imagenes/union_atletico.png'}, played:27, won:13, draw:7,  lost:7,  goalsFor:39, goalsAgainst:31, goalDiff:8,   points:46 },
-    { position:6,  team:{ id:2841,   name:'Real Jaén',             short:'JAE', isJaen:true  }, played:27, won:12, draw:9,  lost:6,  goalsFor:34, goalsAgainst:27, goalDiff:7,   points:45 },
-    { position:7,  team:{ id:202076, name:'Recreativo de Huelva',  short:'HUE', isJaen:false, logo:'/imagenes/recreativo_huelva.png'}, played:27, won:12, draw:9,  lost:6,  goalsFor:34, goalsAgainst:17, goalDiff:17,  points:45 },
-    { position:8,  team:{ id:5068,   name:'Lorca Deportiva',       short:'LOR', isJaen:false, logo:'/imagenes/lorca.png'}, played:27, won:12, draw:6,  lost:9,  goalsFor:27, goalsAgainst:26, goalDiff:1,   points:42 },
-    { position:9,  team:{ id:55121,  name:'FC La Unión Atlético',  short:'LAU', isJaen:false, logo:'/imagenes/union_atletico.png'}, played:27, won:10, draw:6,  lost:11, goalsFor:33, goalsAgainst:33, goalDiff:0,   points:36 },
-    { position:10, team:{ id:292589, name:'CA Antoniano',          short:'ANT', isJaen:false, logo:'/imagenes/antoniano.png'}, played:27, won:10, draw:6,  lost:11, goalsFor:31, goalsAgainst:32, goalDiff:-1,  points:36 },
-    { position:11, team:{ id:2880,   name:'Linares Deportivo',     short:'LIN', isJaen:false, logo:'/imagenes/linares.png'}, played:27, won:8,  draw:12, lost:7,  goalsFor:31, goalsAgainst:37, goalDiff:-6,  points:36 },
-    { position:12, team:{ id:43759,  name:'Yeclano Deportivo',     short:'YEC', isJaen:false, logo:'/imagenes/yeclano.png'}, played:27, won:10, draw:4,  lost:13, goalsFor:22, goalsAgainst:25, goalDiff:-3,  points:34 },
-    { position:13, team:{ id:263797, name:'Salerm Puente Genil',   short:'PUE', isJaen:false, logo:'/imagenes/puente_genil.png'}, played:27, won:8,  draw:9,  lost:10, goalsFor:23, goalsAgainst:30, goalDiff:-7,  points:33 },
-    { position:14, team:{ id:229782, name:'Xerez Deportivo FC',    short:'XDE', isJaen:false, logo:'/imagenes/xerezfc.png'}, played:27, won:7,  draw:10, lost:10, goalsFor:30, goalsAgainst:33, goalDiff:-3,  points:31 },
-    { position:15, team:{ id:324661, name:'CD Estepona',           short:'EST', isJaen:false, logo:'/imagenes/estepona.png'}, played:27, won:8,  draw:5,  lost:14, goalsFor:28, goalsAgainst:37, goalDiff:-9,  points:29 },
-    { position:16, team:{ id:24350,  name:'UD Melilla',            short:'MEL', isJaen:false, logo:'/imagenes/melilla.png'}, played:27, won:5,  draw:11, lost:11, goalsFor:25, goalsAgainst:29, goalDiff:-4,  points:26 },
-    { position:17, team:{ id:44321,  name:'Almería B',             short:'ALB', isJaen:false, logo:'/imagenes/almeria.png'}, played:27, won:4,  draw:7,  lost:16, goalsFor:20, goalsAgainst:39, goalDiff:-19, points:19 },
-    { position:18, team:{ id:4490,   name:'Atlético Malagueño',    short:'ATL', isJaen:false, logo:'/imagenes/malagueno.png'}, played:27, won:3,  draw:5,  lost:19, goalsFor:22, goalsAgainst:48, goalDiff:-26, points:14 },
+    { position:1,  team:{ id:2838,   name:'Xerez CD',              short:'XER', isJaen:false, logo:'/imagenes/xerezcd.png'},   played:28, won:15, draw:6,  lost:7,  goalsFor:30, goalsAgainst:21, goalDiff:9,   points:51 },
+    { position:2,  team:{ id:189948, name:'Deportiva Minera',       short:'DMI', isJaen:false, logo:'/imagenes/deportiva_minera.png'}, played:28, won:15, draw:5,  lost:8,  goalsFor:40, goalsAgainst:27, goalDiff:13,  points:50 },
+    { position:3,  team:{ id:55785,  name:'UCAM Murcia',            short:'UCA', isJaen:false, logo:'/imagenes/union_atletico.png'}, played:28, won:14, draw:7,  lost:7,  goalsFor:41, goalsAgainst:32, goalDiff:9,   points:49 },
+    { position:4,  team:{ id:217210, name:'Águilas FC',             short:'AGU', isJaen:false, logo:'/imagenes/aguilas.png'},   played:28, won:14, draw:7,  lost:7,  goalsFor:36, goalsAgainst:22, goalDiff:14,  points:49 },
+    { position:5,  team:{ id:202076, name:'Recreativo de Huelva',   short:'HUE', isJaen:false, logo:'/imagenes/recreativo_huelva.png'}, played:28, won:13, draw:9,  lost:6,  goalsFor:35, goalsAgainst:17, goalDiff:18,  points:48 },
+    { position:6,  team:{ id:852868, name:'CD Extremadura',         short:'CEX', isJaen:false, logo:'/imagenes/extremadura.png'}, played:28, won:12, draw:11, lost:5,  goalsFor:42, goalsAgainst:32, goalDiff:10,  points:47 },
+    { position:7,  team:{ id:2841,   name:'Real Jaén',              short:'JAE', isJaen:true  }, played:28, won:12, draw:9,  lost:7,  goalsFor:34, goalsAgainst:28, goalDiff:6,   points:45 },
+    { position:8,  team:{ id:5068,   name:'Lorca Deportiva',        short:'LOR', isJaen:false, logo:'/imagenes/lorca.png'},    played:28, won:12, draw:6,  lost:10, goalsFor:28, goalsAgainst:28, goalDiff:0,   points:42 },
+    { position:9,  team:{ id:2880,   name:'Linares Deportivo',      short:'LIN', isJaen:false, logo:'/imagenes/linares.png'},  played:28, won:9,  draw:12, lost:7,  goalsFor:32, goalsAgainst:37, goalDiff:-5,  points:39 },
+    { position:10, team:{ id:43759,  name:'Yeclano Deportivo',      short:'YEC', isJaen:false, logo:'/imagenes/yeclano.png'},  played:28, won:11, draw:4,  lost:13, goalsFor:25, goalsAgainst:25, goalDiff:0,   points:37 },
+    { position:11, team:{ id:55121,  name:'FC La Unión Atlético',   short:'LAU', isJaen:false, logo:'/imagenes/union_atletico.png'}, played:28, won:10, draw:6,  lost:12, goalsFor:34, goalsAgainst:35, goalDiff:-1,  points:36 },
+    { position:12, team:{ id:292589, name:'CA Antoniano',           short:'ANT', isJaen:false, logo:'/imagenes/antoniano.png'}, played:28, won:10, draw:6,  lost:12, goalsFor:31, goalsAgainst:33, goalDiff:-2,  points:36 },
+    { position:13, team:{ id:229782, name:'Xerez Deportivo FC',     short:'XDE', isJaen:false, logo:'/imagenes/xerezfc.png'},  played:28, won:8,  draw:10, lost:10, goalsFor:31, goalsAgainst:33, goalDiff:-2,  points:34 },
+    { position:14, team:{ id:263797, name:'Salerm Puente Genil',    short:'PUE', isJaen:false, logo:'/imagenes/puente_genil.png'}, played:28, won:8,  draw:9,  lost:11, goalsFor:23, goalsAgainst:31, goalDiff:-8,  points:33 },
+    { position:15, team:{ id:324661, name:'CD Estepona',            short:'EST', isJaen:false, logo:'/imagenes/estepona.png'}, played:28, won:8,  draw:6,  lost:14, goalsFor:29, goalsAgainst:38, goalDiff:-9,  points:30 },
+    { position:16, team:{ id:24350,  name:'UD Melilla',             short:'MEL', isJaen:false, logo:'/imagenes/melilla.png'},  played:28, won:6,  draw:11, lost:11, goalsFor:27, goalsAgainst:30, goalDiff:-3,  points:29 },
+    { position:17, team:{ id:44321,  name:'Almería B',              short:'ALB', isJaen:false, logo:'/imagenes/almeria.png'},  played:28, won:4,  draw:7,  lost:17, goalsFor:20, goalsAgainst:40, goalDiff:-20, points:19 },
+    { position:18, team:{ id:4490,   name:'Atlético Malagueño',     short:'ATL', isJaen:false, logo:'/imagenes/malagueno.png'}, played:28, won:3,  draw:5,  lost:20, goalsFor:22, goalsAgainst:51, goalDiff:-29, points:14 },
   ];
 }
-
 // ═══════════════════════════════════════════════════════════════
 // MIDDLEWARE
 // ═══════════════════════════════════════════════════════════════
