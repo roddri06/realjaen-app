@@ -827,14 +827,6 @@ function staticSquad() {
 function staticUpcoming() {
   // Datos reales verificados desde SportAPI7 (temporada 25/26)
   return [
-    { id:'14102062', source:'static',
-      homeTeam:{ id:202076, name:'Recreativo de Huelva', short:'HUE', isJaen:false, logo:'/imagenes/recreativo_huelva.png'},
-      awayTeam:{ id:2841,   name:'Real Jaén',            short:'JAE', isJaen:true  },
-      date: new Date(1774107000*1000).toISOString(),
-      dateFormatted:'Sáb 22 Mar', time:'16:30',
-      homeGoals: 1, awayGoals:0,
-      status:'finished', competition:'Segunda Federación', round:'Jornada 28',
-      venue:'Nuevo Colombino', city:'Huelva' },
     { id:'14102134', source:'static',
       homeTeam:{ id:2841, name:'Real Jaén',  short:'JAE', isJaen:true  },
       awayTeam:{ id:2838, name:'Xerez CD',   short:'XER', isJaen:false, logo:'/imagenes/xerezcd.png'},
