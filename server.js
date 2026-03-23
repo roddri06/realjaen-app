@@ -948,6 +948,23 @@ app.use((req, res, next) => {
 // ═══════════════════════════════════════════════════════════════
 
 // ── Estado y diagnóstico ─────────────────────────────────────
+app.get('/manifest.json', (req, res) => {
+  res.json({
+    name: 'Real Jaén CF',
+    short_name: 'Real Jaén',
+    description: 'App oficial del Real Jaén CF',
+    start_url: '/app',
+    display: 'standalone',
+    background_color: '#5B2D8E',
+    theme_color: '#5B2D8E',
+    orientation: 'portrait',
+    icons: [
+      { src: '/imagenes/real_jaen.png', sizes: '250x390', type: 'image/png' },
+      { src: '/imagenes/real_jaen.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' }
+    ]
+  });
+});
+
 app.get('/api/status', async (req, res) => {
   // Prueba rápida a SportAPI7
   // Prueba rápida a SofaScore
